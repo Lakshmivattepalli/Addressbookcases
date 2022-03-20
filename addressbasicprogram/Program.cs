@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Address_Book
+namespace createContact
 {
     class CreateContact
     {
@@ -52,10 +52,10 @@ namespace Address_Book
             CreateContact obj = new CreateContact();
             obj.Create_Contact();
             obj.DisplayContact();
+            CreateContact newContact = new CreateContact();
+            newContact.DisplayContact();
+
             Console.ReadLine();
         }
     }
 }
-
-
-
