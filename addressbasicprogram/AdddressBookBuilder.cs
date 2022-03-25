@@ -1,18 +1,13 @@
 ﻿using System;
 
-namespace Data
+namespace RemoveContact
 {
-    internal class AdddressBookBuilder
+    internal class AdddressBookBuilder : AdddressBookBuilderBase
     {
         internal readonly object list;
 
         public AdddressBookBuilder()
         {
-        }
-
-        internal void AddContact(Data contact)
-        {
-            throw new NotImplementedException();
         }
 
         internal void Display_Contacts()
