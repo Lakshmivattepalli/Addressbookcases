@@ -5,6 +5,14 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uc-14", "uc-14.csproj", "{72D3E797-E24F-4A9F-AC8E-C832C64CC22D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB0430EF-C7B6-47A3-A353-5EE0683C5608}"
+	ProjectSection(SolutionItems) = preProject
+		Addressbook.cs = Addressbook.cs
+		..\..\AddressbookWriterfile.txt = ..\..\AddressbookWriterfile.txt
+		..\..\csvfile.csv = ..\..\csvfile.csv
+		Personaldetails.cs = Personaldetails.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
